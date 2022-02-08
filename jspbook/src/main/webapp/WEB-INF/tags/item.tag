@@ -1,10 +1,10 @@
 <%@ tag body-content="scriptless" language="java" pageEncoding="UTF-8"%>
-<%@ tag import="jspbook.ch10.product" %>
+<%@ tag import="jspbook.ch10.Product" %>
 <%@ attribute name="bgcolor" %>
 <%@ attribute name="border" %>
 <%@ attribute name="width" %>
 
-<jsp:useBean id="product" class="jspbook.ch10.product" />
+<jsp:useBean id="product" class="jspbook.ch10.Product" />
 
 <h2>Body</h2>
 
